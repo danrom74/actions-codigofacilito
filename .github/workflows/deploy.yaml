@@ -1,9 +1,9 @@
-name: "Deploy CodigoFacilito"
+name: Deploy CodigoFacilito
 
 on: 
   push:
-    branches:
-        - main
+    branches: [main]
+      
 jobs:
     deploy-codigofacilito:
         runs-on: ubuntu-latest
