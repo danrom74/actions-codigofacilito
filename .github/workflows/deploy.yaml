@@ -12,4 +12,5 @@ jobs:
             - run: echo "Corremos migraciones"
             - run: echo "Generamos binario"
             - run: echo "Publicar versión"
+            - run: echo "Publicar versión en la rama MASTER creada"
        
